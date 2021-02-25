@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+     <%- include partials/header %>
+     <header>
+          <%- include partials/main_nav%>
+     </header>
+     <body class="d-flex flex-column h-1000 mb-5" >
+          <div class="row mx-4 my-2" >
+               <div class="col-md-12 text-center" style="padding-top:2rem;" >
+                    <h1 >Welcome to the <%= title%> Page</h1>
+               </div>
+               <div class="row mt-5 mb-5">
+                    <div class="col-md-9">
+                         <div class="mt-4">               
+                              <p class="h5 text-white">Hello,</p>
+                              <p class="h5">
+                                   My name is <b style="color:black;">Arpit Kamal</b> I am basically from India. I did my graduation from Punjabi University, Patiala in <b style="color:black;">Computer Science and Engineering</b>. 
+                              </p>
+                              <p class="h5 ">
+                                   I'm currently pursuing the 
+                                   <b style="color:black;">Artificial Intelligence Fast-Track Program</b> at Centennial College.
+                              </p>
+                              <p class="h5">
+                                After completing my graduation. I did online courses related to the Artificial Intelligence field.
+                                <ol>
+                                   <li><b style="color:black">Machine Learning By Andrew Ng</b></li>
+                                   <li><b style="color:black">Deep Learning Specialization By Andrew Ng</b></li>
+                                   <li><b style="color:black">DeepLearning.AI TensorFlow Developer By Laurence Moroney</b>
+                                   </li>
+                                   </ol>
+                              </p>
+                         </div>
+                    </div>
+                    <div class="col-md-3">
+                         <img src="/images/my_image.jpg" class="img-fluid mb-2" alt="..." style="border-radius: 50%;">   
+                    </div>
+               </div>
+          </div>  
+          <%- include partials/footer%>
+     </body>
+     <footer class="footer mt-auto py-2 fixed-bottom" style="background-color:rgb(52,58,64)">
+        <%- include partials/footer%>
+    </footer>
+</html>
